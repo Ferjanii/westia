@@ -1,0 +1,204 @@
+body, html{
+  font-family:sans-serif;
+  padding: 0;
+  margin: 0;
+}
+span{
+  color:white;
+}
+.web-link{
+  cursor: pointer;
+  text-decoration:none;
+}
+.header-global{
+  border:1px solid #D3D3D3;
+  display:flex;
+  justify-content:space-around;
+}
+.header-title{
+  display:flex;
+  flex:1;
+}
+.header-link{
+  color:#6c798b;
+  padding:10px;
+  font-weight: bold;
+}
+.header-img{
+  margin:24px 0px 0px 0px;
+  background:url("https://wistia.com/download/assets/wistia-logo-flags.png");
+  height:40px;
+  width:40px;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+.list-header{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  flex:2;
+  border:1px solid #D3D3D3;
+}
+.list{  
+  border-top:1px solid #D3D3D3;
+  flex:1;
+}
+.list-header-item:hover{
+  color:black;
+}
+.list-items-header{
+  flex:1;
+}
+.header-authentification{
+  display:flex;
+  flex:1;
+}
+.sign-up{
+  color: #3ea9f5;
+  
+}
+.signup{
+  border-left:1px solid #D3D3D3;
+  height: 12%;
+  flex:1;
+  display:flex;
+  justify-content: space-around;
+   align-items:center;
+}
+.authen:hover{
+  background-color:#D3D3D3;
+}
+.bold-class{
+  font-weight: bold;
+}
+.main-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  background-color:#c27a92;
+}
+.watch-button{
+  border:1px solid white;
+  padding:20px 40px 20px 40px;
+  background-color:white;
+  border-radius:10px;
+}
+.text-inder{
+  text-decoration: underline;
+}
+.main-service{
+  display:flex;
+}
+.service-description{
+  padding:40px;
+  text-align: left;
+  height:300px;
+  font-size:18px;
+}
+.service-description-one{
+  background-color:#FED24A;
+}
+.service-description-two{
+ background-color:#51C29F;
+}
+.service-description-three{
+ background-color:#3EA9F5;
+} 
+.service-presentation{
+  font-size:20px;
+  line-height:30px;
+  max-width: 360px;
+  margin-bottom: 25px;
+}
+.start-button{
+  height : 40px;
+  width : 180px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  border:1px solid white;
+  border-radius:10px;  
+}
+.anima-button:hover{
+  background-color:white;
+}
+.businesses-grow{
+  display:flex;
+  justify-content:space-around;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.statistical{
+  max-width: 160px;
+  color:grey;
+  font-size:16px;
+}
+.fonction-main{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:100px;
+  }
+.terms{
+  border:1px solid #e8e7e6;
+  background-color:#e8e7e6;
+  text-align:center;
+  color:#777777;
+  font-size:18px;
+}
+.term{
+  color:#777777
+}
+.feature-text{
+  font-size:16px;
+  line-height:30px;
+  max-width: 360px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #363945;
+}
+.feature-title{
+  color: #363945;
+}
+.feature-link{
+  color: #217AD5;
+  font-size:16px;
+  font-weight:bold;
+}
+.footer-section{
+  border:1px solid black; 
+  color:white;
+  background-color:#2a2d35;
+}
+.footer-list{
+  display:flex;
+  justify-content:space-around;
+  margin-top:50px;
+}
+.list-items{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height:30px;
+  font-weight:bold;
+}
+.list-items-footer{
+  cursor: pointer;
+  text-decoration:none;
+  color: #b2b9c1;
+}
+.list-under:hover{
+  text-decoration:underline;
+}
+.footer-presentation{
+  max-width: 360px;
+}
+.footer-terms
+{
+  text-align:center;
+  color:#b2b9c1;
+  margin-bottom:100px;
+  margin-top:100px;
+}
+hr{ 
+   width:1300px;
+}
